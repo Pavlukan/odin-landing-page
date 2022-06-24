@@ -4,3 +4,9 @@ body {
     display: flex; /* make the body a flexible container to organise all sections properly */
     flex-direction: column;
 }
+
+ul {
+    list-style: none; /* remove bullet points before every list item */
+    padding: 0;
+    margin: 0;
+}
