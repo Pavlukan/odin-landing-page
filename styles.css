@@ -1,0 +1,6 @@
+body {
+    margin: 0px; /* remove the white frame around the webpage */
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    display: flex; /* make the body a flexible container to organise all sections properly */
+    flex-direction: column;
+}
