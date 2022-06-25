@@ -2,16 +2,36 @@ body {
     margin: 0px; /* remove the white frame around the webpage */
     font-family: Verdana, Geneva, Tahoma, sans-serif; 
     display: flex; /* make the body a flexible container to organise all sections properly */
-    flex-direction: column;
+    flex-direction: column; /* make the flexbox items lay out themselves in a column */
+}
+
+.header {
+    background-color: #1F2937;
+    font-size: 24px; /* the font size of the logo */
+    color: #F9FAF8; /* the text colour of the logo and the main hero text */
+    font-weight: 700; /* boldness of the header logo */
+}
+
+.hero-header {
+    font-size: 48px; /* the font size of the main hero text */
+    font-weight: 800; /* boldness of the main hero text */
+}
+
+.hero-header p {
+    font-size: 18px; /* the font-size of the hero secondary text */
+    color: #E5E7EB; /* color of the hero secondary text */
+    font-weight: normal /* font-weight of the hero secondary text */
 }
 
 ul {
     list-style: none; /* remove bullet points before every list item */
-    padding: 0;
+    padding: 0; /* remove the initial padding and margin for the unordered list */
     margin: 0;
 }
 
 a {
     text-decoration: none; /* remove underlining of the links */
-    color: #E5E7EB;
+    color: #E5E7EB; /* color of all links */
+    font-size: 18px; /* font size of all links */
+    font-weight: normal; /* boldness of all links */
 }
