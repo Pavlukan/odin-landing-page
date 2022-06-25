@@ -8,13 +8,32 @@ body {
 .header {
     background-color: #1F2937;
     font-size: 24px; /* the font size of the logo */
-    color: #F9FAF8; /* the text colour of the logo and the main hero text */
+    color: #F9FAF8; /* the text colour of the logo */
     font-weight: 700; /* boldness of the header logo */
+    display: flex; /* make the header a flexible container; all items organise themselves in a row */
+    justify-content: space-around; /* put the logo and the links at an equal distance from each other */
+    padding: 12px 0; /* add 12px of top and bottom padding to the header */
 }
 
 .hero-header {
-    font-size: 48px; /* the font size of the main hero text */
-    font-weight: 800; /* boldness of the main hero text */
+    color: #F9FAF8; /* the text colour of the hero main text */
+    background-color: #1F2937; /* the background colour of the hero section */
+    font-size: 48px; /* the font-size of the hero main text */
+    font-weight: 800; /* boldness of the hero main text */
+    display: flex; /* make the hero header a flexible container; everything aligned itself in a row */
+    justify-content: center; /* drag everything to the centre of the main axis */
+    gap: 210px; /* add a gap between the information and the image blocks */
+    padding: 30px 0; /* add padding to the top and the bottom */
+}
+
+.information {
+    height: 70px;
+    width: 360px;
+}
+
+.image img {
+    height: auto;
+    width: 440px;
 }
 
 .hero-header p {
@@ -27,6 +46,8 @@ ul {
     list-style: none; /* remove bullet points before every list item */
     padding: 0; /* remove the initial padding and margin for the unordered list */
     margin: 0;
+    display: flex; /* make the unordered list a flexible container to put every list item in a row */
+    gap: 15px; /* add a gap of 15 pixels between every list item */
 }
 
 a {
