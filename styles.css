@@ -36,6 +36,13 @@ body {
     width: 440px;
 }
 
+.information button {
+    border: 0; /* remove the black border around the button */
+    border-radius: 5px; /* cut the corners of the button to make it more rounded */
+    padding: 10px 30px; /* add padding to the button */
+    color: #E5E7EB; /* text colour of the button */
+    background-color: #3882F6; /* background color of the button */
+}
 .hero-header p {
     font-size: 18px; /* the font-size of the hero secondary text */
     color: #E5E7EB; /* color of the hero secondary text */
