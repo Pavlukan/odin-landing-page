@@ -46,10 +46,23 @@ body {
     color: #E5E7EB; /* text colour of the button */
     background-color: #3882F6; /* background color of the button */
 }
+
 .hero-header p {
     font-size: 18px; /* the font-size of the hero secondary text */
     color: #E5E7EB; /* color of the hero secondary text */
     font-weight: normal /* font-weight of the hero secondary text */
+}
+
+.content {
+    color: #1F2937; /* color of the main text in the content section */
+    font-size: 36px; /* font-size of the main text in the content section */
+    font-weight: 800; /* boldness of the main text in the content section */
+}
+
+.content p {
+    font-size: 18px; /* font-size of the subtext under the items in the content section */
+    color: grey; /* colour of the subtext */
+    font-weight: normal; /* boldness of the subtext */
 }
 
 ul {
@@ -66,3 +79,4 @@ a {
     font-size: 18px; /* font size of all links */
     font-weight: normal; /* boldness of all links */
 }
+
