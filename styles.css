@@ -45,6 +45,7 @@ body {
     padding: 10px 30px; /* add padding to the button */
     color: #E5E7EB; /* text colour of the button */
     background-color: #3882F6; /* background color of the button */
+    font-weight: 800; /* boldness of the button text */
 }
 
 .hero-header p {
@@ -98,6 +99,45 @@ body {
     text-align: right;
     font-style: normal;
     font-weight: 700;
+}
+
+.call-to-action {
+    height: 250px; /* add a fixed height to the section */
+    width: auto; /* make section as wide as the page itself */
+    display: flex; /* make the section flexible and center the prompt message */
+    justify-content: center;
+    align-items: center;
+}
+
+.prompt {
+    background-color: #3882F6; /* the background color of the prompt message */
+    padding: 30px 100px; /* padding of the prompt message */
+    border-radius: 8px; /* round the corners of the prompt message */
+    display: flex; /* make the prompt flexible */
+    justify-content: center; /* put everything to center; stop button from stretching */
+    align-items: center;
+    gap: 70px; /* put a gap between the button and the text */
+}
+
+.prompt .contact-me {
+    color: #E5E7EB; /* the color of the text of the prompt message */
+    font-size: 28px; /* the font-size of the main text of the prompt message */
+    font-weight: 800; /* the boldness of the main text of the prompt message */
+}
+
+.prompt p {
+    font-size: 16px; /* the font-size of the text below the main text of the prompt message */
+    margin: 5px 0; /* reduce the margin between the main text and the subtext of the prompt message */
+    font-weight: normal; /* return the boldness of the subtext to normal */ 
+}
+
+.prompt button {
+    background-color: #3882F6; /* the background color of the button */
+    border: 2px #E5E7EB solid; /* add a border to the button */
+    color:#E5E7EB; /* color of the text of the button */
+    border-radius: 8px; /* round the corners of the button */
+    padding: 8px 20px; /* add padding to the button */
+    font-weight: 800; /* boldness of the button text */
 }
 
 ul {
