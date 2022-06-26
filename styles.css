@@ -54,15 +54,34 @@ body {
 }
 
 .content {
+    padding: 20px 0;
     color: #1F2937; /* color of the main text in the content section */
     font-size: 36px; /* font-size of the main text in the content section */
     font-weight: 800; /* boldness of the main text in the content section */
+    text-align: center; /* align everything to the centre of the page */
+ 
+}
+
+.items {
+    display: flex; /* make the items container flexible; all items arrange themselves in a row */
+    justify-content: center; /* put everything in the centre */
+    padding: 40px 0 70px 0; /* add padding to the top and the bottom */
+}
+
+.item {
+    height: 200px; /* give every item a fixed height and width of 200px */
+    width: 200px;
 }
 
 .content p {
     font-size: 18px; /* font-size of the subtext under the items in the content section */
     color: grey; /* colour of the subtext */
     font-weight: normal; /* boldness of the subtext */
+}
+
+.content img {
+    height: 120px;
+    width: 120px;
 }
 
 ul {
