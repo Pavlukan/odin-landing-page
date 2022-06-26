@@ -80,8 +80,16 @@ body {
 }
 
 .content img {
-    height: 120px;
+    height: 120px; /* the height and the width of all the images (numbers) in the content section */
     width: 120px;
+}
+
+.quote {
+    background-color: #E5E7EB; /* background color of the quote section */
+    font-size: 36px; /* font-size of quote text */
+    color: #1F2937; /* text colour of the quote text */
+    font-style: italic; /* change the quote style to italic */
+    font-weight: 300; /* boldness of the quote text */
 }
 
 ul {
