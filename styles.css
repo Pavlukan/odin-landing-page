@@ -140,6 +140,11 @@ body {
     font-weight: 800; /* boldness of the button text */
 }
 
+.prompt button:hover, .information button:hover {
+    background-color: #E5E7EB; /* a little bit of trickery :) */
+    color: #3882F6; /* they did not teach us this stuff */
+}
+
 .footer {
     background-color: #1F2937; /* background color of the footer */
     color: #E5E7EB; /* color of the text in the footer */
