@@ -140,6 +140,16 @@ body {
     font-weight: 800; /* boldness of the button text */
 }
 
+.footer {
+    background-color: #1F2937; /* background color of the footer */
+    color: #E5E7EB; /* color of the text in the footer */
+    height: 80px; /* height of the footer */
+    font-size: 18px; /* font-size of the text in the footer */
+    display: flex; /* create a flexbox container */
+    justify-content: center; /* align the text on the centre of the main axis */
+    align-items: center; /* align the text on the centre of the cross axis */
+}
+
 ul {
     list-style: none; /* remove bullet points before every list item */
     padding: 0; /* remove the initial padding and margin for the unordered list */
